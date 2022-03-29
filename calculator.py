@@ -10,15 +10,10 @@ def divide(x,y):
 if __name__=="__main__":
     num1=float(input("Enter first number:"))
     num2=float(input("Enter second number:"))
-    result=add(num1,num2)
-    print(result)
-    result = substract(num1, num2)
-    print(result)
+    print(add(num1,num2))
+    print(substract(num1, num2))
+    print(multiply(num1, num2))
+    print(divide(num1, num2))
 
-    result = multiply(num1, num2)
-    print(result)
-
-    result = divide(num1, num2)
-    print(result)
 
 
