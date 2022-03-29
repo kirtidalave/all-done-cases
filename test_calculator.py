@@ -6,7 +6,8 @@ import pytest
 @pytest.mark.parametrize("a,b,c",[(93,2,5),(10,12,15),(2,5,8),(7,8,15)])
 def test_add(a,b,c):
     result = calculator.add(a,b)
-    assert c==result
+    assert not c==result
+
 @pytest.mark.xfail
 @pytest.mark.parametrize("a,b,c",[(7,2,5),(27,12,15),(13,5,8),(7,8,15)])
 def test_sub(a,b,c):
