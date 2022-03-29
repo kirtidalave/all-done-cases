@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="8" skipped="8" tests="16" time="0.140" timestamp="2022-03-29T17:03:35.252045" hostname="LAPTOP-FJACFONQ"><testcase classname="test_calculator" name="test_add[93-2-5]" time="0.001"><skipped type="pytest.skip" message="unconditional skip">C:\Users\Kirti\PycharmProjects\cal\test_calculator.py:5: unconditional skip</skipped></testcase><testcase classname="test_calculator" name="test_add[10-12-15]" time="0.000"><skipped type="pytest.skip" message="unconditional skip">C:\Users\Kirti\PycharmProjects\cal\test_calculator.py:5: unconditional skip</skipped></testcase><testcase classname="test_calculator" name="test_add[2-5-8]" time="0.000"><skipped type="pytest.skip" message="unconditional skip">C:\Users\Kirti\PycharmProjects\cal\test_calculator.py:5: unconditional skip</skipped></testcase><testcase classname="test_calculator" name="test_add[7-8-15]" time="0.001"><skipped type="pytest.skip" message="unconditional skip">C:\Users\Kirti\PycharmProjects\cal\test_calculator.py:5: unconditional skip</skipped></testcase><testcase classname="test_calculator" name="test_sub[7-2-5]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_calculator" name="test_sub[27-12-15]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_calculator" name="test_sub[13-5-8]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_calculator" name="test_sub[7-8-15]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_calculator" name="test_mult[1-2-2]" time="0.001"><failure message="AttributeError: module 'calculator' has no attribute 'mult'">a = 1, b = 2, c = 2
+
+    @pytest.mark.parametrize("a,b,c",[(1,2,2),(3,4,12),(11,12,23),(2,7,9)])
+    def test_mult(a,b,c):
+&gt;       result = calculator.mult(a,b,c)
+E       AttributeError: module 'calculator' has no attribute 'mult'
+
+test_calculator.py:18: AttributeError</failure></testcase><testcase classname="test_calculator" name="test_mult[3-4-12]" time="0.001"><failure message="AttributeError: module 'calculator' has no attribute 'mult'">a = 3, b = 4, c = 12
+
+    @pytest.mark.parametrize("a,b,c",[(1,2,2),(3,4,12),(11,12,23),(2,7,9)])
+    def test_mult(a,b,c):
+&gt;       result = calculator.mult(a,b,c)
+E       AttributeError: module 'calculator' has no attribute 'mult'
+
+test_calculator.py:18: AttributeError</failure></testcase><testcase classname="test_calculator" name="test_mult[11-12-23]" time="0.001"><failure message="AttributeError: module 'calculator' has no attribute 'mult'">a = 11, b = 12, c = 23
+
+    @pytest.mark.parametrize("a,b,c",[(1,2,2),(3,4,12),(11,12,23),(2,7,9)])
+    def test_mult(a,b,c):
+&gt;       result = calculator.mult(a,b,c)
+E       AttributeError: module 'calculator' has no attribute 'mult'
+
+test_calculator.py:18: AttributeError</failure></testcase><testcase classname="test_calculator" name="test_mult[2-7-9]" time="0.001"><failure message="AttributeError: module 'calculator' has no attribute 'mult'">a = 2, b = 7, c = 9
+
+    @pytest.mark.parametrize("a,b,c",[(1,2,2),(3,4,12),(11,12,23),(2,7,9)])
+    def test_mult(a,b,c):
+&gt;       result = calculator.mult(a,b,c)
+E       AttributeError: module 'calculator' has no attribute 'mult'
+
+test_calculator.py:18: AttributeError</failure></testcase><testcase classname="test_calculator" name="test_div[10-5-2]" time="0.001"><failure message="AttributeError: module 'calculator' has no attribute 'div'">a = 10, b = 5, c = 2
+
+    @pytest.mark.parametrize("a,b,c",[(10,5,2),(5,2,2.5),(70,2,35),(10,3,5)])
+    def test_div(a,b,c):
+&gt;       result = calculator.div(a,b,c)
+E       AttributeError: module 'calculator' has no attribute 'div'
+
+test_calculator.py:23: AttributeError</failure></testcase><testcase classname="test_calculator" name="test_div[5-2-2.5]" time="0.002"><failure message="AttributeError: module 'calculator' has no attribute 'div'">a = 5, b = 2, c = 2.5
+
+    @pytest.mark.parametrize("a,b,c",[(10,5,2),(5,2,2.5),(70,2,35),(10,3,5)])
+    def test_div(a,b,c):
+&gt;       result = calculator.div(a,b,c)
+E       AttributeError: module 'calculator' has no attribute 'div'
+
+test_calculator.py:23: AttributeError</failure></testcase><testcase classname="test_calculator" name="test_div[70-2-35]" time="0.001"><failure message="AttributeError: module 'calculator' has no attribute 'div'">a = 70, b = 2, c = 35
+
+    @pytest.mark.parametrize("a,b,c",[(10,5,2),(5,2,2.5),(70,2,35),(10,3,5)])
+    def test_div(a,b,c):
+&gt;       result = calculator.div(a,b,c)
+E       AttributeError: module 'calculator' has no attribute 'div'
+
+test_calculator.py:23: AttributeError</failure></testcase><testcase classname="test_calculator" name="test_div[10-3-5]" time="0.001"><failure message="AttributeError: module 'calculator' has no attribute 'div'">a = 10, b = 3, c = 5
+
+    @pytest.mark.parametrize("a,b,c",[(10,5,2),(5,2,2.5),(70,2,35),(10,3,5)])
+    def test_div(a,b,c):
+&gt;       result = calculator.div(a,b,c)
+E       AttributeError: module 'calculator' has no attribute 'div'
+
+test_calculator.py:23: AttributeError</failure></testcase></testsuite></testsuites>
