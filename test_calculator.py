@@ -1,10 +1,11 @@
 import calculator
+import pytest
 
-def test_add():
-    x = 10
-    y = 25
-    result = calculator.add(x,y)
-    assert x+y==result
+@pytest.mark.parametrize("a,b,c",[(93,2,5),(10,12,15),(2,5,8),(7,8,15)])
+def test_add(a,b,c):
+
+    result = calculator.add(a,b)
+    assert c==result
 
 def test_sub():
     x = 20
